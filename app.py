@@ -12,7 +12,7 @@ def main():
 
     if st.button("Find largest number"):
         largest_number = find_largest_number(num1,num2,num3)
-        st.success(f"The largest number is: {largset_number}")
+        st.success(f"The largest number is: {largest_number}")
 
     if __name__ == "__main__":
         main()
